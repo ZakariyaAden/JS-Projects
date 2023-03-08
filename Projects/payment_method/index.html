@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZakariyaPlus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span class = "js">JS</span> Payment Processor</h1>
+    
+    <div class="signupdiv">
+        <label for = "myTextBox_Username">Enter Username</label><br>
+        <input type="text" id = "myTextBox_Username">
+        <button type="button" id = "myUsernameSubmitButton" >SUBMIT</button><br>
+        <label for="myTextBox_Password">Enter Password</label><br>
+        <input type="text" id = "myTextBox_Password" name = "">
+        <button type="button" id = "myPasswordSubmitButton">SUBMIT</button><br>
+        <h1 id = "Username"></h1>  
+        <h1 id = "Password"></h1>
+    </div>
+    <br>
+
+    <div class = "paymentdiv">
+        <input type="radio" id = "visaBtn" name="visaBtn"></button> 
+        <label for="visaBtn">Visa</label>
+        <input type="radio" id = "masterCardBtn" name="masterCardBtn"></button>
+        <label for="masterCardBtn">MasterCard</label>
+        <input type="radio" id = "amExBtn" name="amExBtn"></button>
+        <label for="amExBtn">American Express</label><br>
+        <button class = "submitBtn" type="button" id = "submitPaymentType" name="submitPaymentType">SUBMIT</button>
+        <h1 id = "payTypeStatus"></h1>    
+    </div>
+    <br>
+
+    <div class = "subscricptiondiv">
+        <label for="subBtn">Subscribe</label>
+        <input type="checkbox" name="subBtn" id = "subBtn"><br>
+        <button class="submitBtn" type="button" name="submitSubsribed" id="submitSubsribed" >SUBMIT</button>
+        <h1 id = "subStatus"></h1>
+    </div>
+    <br>
+
+    <script src = "index.js"></script>
+</body>
+</html>

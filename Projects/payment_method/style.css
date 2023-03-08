@@ -1,0 +1,59 @@
+body{
+
+    background-color: #00203fff;
+    color: #adefd1ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signupdiv{
+
+    background-color: #101820ff;
+    color: #f2aa4cff;
+    border-style: solid;
+    border-color: #f2aa4cff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+
+.subscricptiondiv{
+
+    background-color: #101820ff;
+    color: #f2aa4cff;
+    border-style: solid;
+    border-color: #f2aa4cff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.paymentdiv{
+
+    background-color: #101820ff;
+    color: #f2aa4cff;
+    border-style: solid;
+    border-color: #f2aa4cff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.js{
+
+    background-color: yellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.submitBtn{
+
+    background-color: #101820ff;
+    color: #f2aa4cff;
+    text-align: center;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "index.js"></script>
+</head>
+<body>
+    <h1><span id = "js-logo">JS</span> Calc</h1>
+    <div class = "calc-body">
+        <textarea id = "screen" name = "screen" contenteditable class = "calc-screen" pattern = "[0-9]{1,5}" title="Digits only"></textarea>
+        <hr>
+        <div class = "calc-operators-container">
+            <button type = "button" id = "calc-button-plus" data-index = "+" onclick = "takeIndex(id)">+</button>
+            <button type = "button" id = "calc-button-subtract" data-index = "-" onclick = "takeIndex(id)">-</button>
+            <button type = "button" id = "calc-button-multiply" data-index = "*" onclick = "takeIndex(id)">*</button>
+            <button type = "button" id = "calc-button-divide" data-index = "/" onclick = "takeIndex(id)">/</button>
+            <button type = "button" id = "calc-button-squared" data-index = "^2" onclick = "takeIndex(id)">^2</button>
+            <button type = "button" id = "calc-button-equals" data-index = "=" onclick = "takeIndex(id)">=</button>            
+        </div>
+        <hr style = "width: 65%;">
+        <div class="calc-num-container">
+            <button type = "button" id = "calc-button1" data-index = "1" onclick = "takeIndex(id)">1</button>
+            <button type = "button" id = "calc-button2" data-index = "2" onclick = "takeIndex(id)">2</button>
+            <button type = "button" id = "calc-button3" data-index = "3" onclick = "takeIndex(id)">3</button>
+            <button type = "button" id = "calc-button4" data-index = "4" onclick = "takeIndex(id)">4</button>
+            <button type = "button" id = "calc-button5" data-index = "5" onclick = "takeIndex(id)">5</button>
+            <button type = "button" id = "calc-button6" data-index = "6" onclick = "takeIndex(id)">6</button>
+            <button type = "button" id = "calc-button7" data-index = "7" onclick = "takeIndex(id)">7</button>
+            <button type = "button" id = "calc-button8" data-index = "8" onclick = "takeIndex(id)">8</button>
+            <button type = "button" id = "calc-button9" data-index = "9" onclick = "takeIndex(id)">9</button>
+            <button type = "button" id = "calc-button0" data-index = "0" onclick = "takeIndex(id)">0</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatToDo</title>
+    <style>
+        .crossedOut{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <label for = "addTask" >Add an item:</label><br>
+    <input type = "text" id = "addTask">
+    <button type = "button" id = 'submitTask' onclick="addTask()">Submit</button>
+    <button type = "button" id = "deleteAllTasks" onclick="deleteAll()">Delete All</button><br>
+    <ul id = 'taskls'>
+    
+    </ul>
+
+    <script src = "index.js"></script>
+</body>
+</html>

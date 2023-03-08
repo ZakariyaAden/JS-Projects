@@ -1,0 +1,28 @@
+.namePlate {
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: forestgreen;
+
+}
+
+.infoOfExpense {
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: groove;
+    border-color: forestgreen;
+    border: solid;
+    width: 50%;
+    right: 50%;
+    position: relative;
+    left: 25%;
+
+}
+
+#subInfoOfExpense {
+
+    background-color: greenyellow; 
+    color: white;
+
+}

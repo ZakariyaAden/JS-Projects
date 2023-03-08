@@ -1,0 +1,215 @@
+body{
+    height: 118vh;
+    margin: 0px;
+    background-color: rgb(158, 157, 157);
+    display: grid;
+    text-align: center;
+    
+}
+#js-logo{
+    background-color: yellow;
+    font-size: larger;
+}
+.calc-body{
+    background-color: rgb(20, 20, 20);
+    height: 655px;
+    width: 500px;
+    place-self: center;
+    border-radius: 25px;            
+}
+.calc-screen{
+    height: 50px;
+    width: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    background-color: white;
+    overflow: hidden;
+    resize: none;
+    text-align: center;
+    font-family: monospace;
+    position: relative;
+}
+.backgroud{
+    height: 50px;
+    width: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.calc-num-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+.calc-operators-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#calc-button-plus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button-subtract{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button-multiply{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button-divide{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button-squared{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button-equals{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button7{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button8{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+#calc-button9{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+}
+#calc-button0{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    place-self: center;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    left: 100%;
+}

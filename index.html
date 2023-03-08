@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link To JS Project</title>
+    <style>
+        .btn {
+            background-color: greenyellow; 
+            color: black;
+        }
+        .reportBtn {
+            background-color: orangered;
+            color: black;
+        }
+
+        .bugClass{
+            background-color: orangered;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zakariya's JS Project</h1>
+    <marqee direction = "right">These projects are all buggy but I'll be fixing them over time</marqee>
+    <br>
+    <br>
+    <label for = "linkToBinoConverter">Binary Converter:</label>
+    <button type = "button" id = "linkToBinoConverter" class = "btn" onclick="window.open('Projects/binary_converter/index.html','_blank')">GO</button>
+    <p id = "bugStatusBC"></p>
+    <br>
+    <label for = "linkToCalc">Calculator:</label>
+    <button type = "button" id = "linkToCalc" class = "btn" onclick="window.open('Projects/calculator/index.html','_blank')">GO</button>
+    <p id = "bugStatusBC"></p>
+    <br>
+    <label for = "linkToExpenseTracker">Expense Tracker:</label>
+    <button type = "button" id = "linkToExpenseTracker" class = "btn" onclick="window.open('Projects/expense_tracker/index.html','_blank')">GO</button>
+    <ul id = "lsofbugStatusBC">
+        <p id = "bugStatusET"></p> 
+    </ul>   
+    <br>
+    <label for = "linkToPaymentMethod">Payment Method:</label>
+    <button type = "button" id = "linkToPaymentMethod" class = "btn"   onclick="window.open('Projects/payment_method/index.html','_blank')">GO</button>
+    <ul id = "lsofbugStatusPM">
+        <p id = "bugStatusPM"></p>
+    </ul>
+    <br>
+    <label for = "linkToTodoApp">Todo App:</label>
+    <button type = "button" id = "linkToTodoApp" class = "btn" onclick="window.open('Projects/todo_app/index.html','_blank')">GO</button>
+    <ul id = "lsofbugStatusTA">
+        <p id = "bugStatusTA"></p>    
+    </ul>
+    
+    <br>
+    <label for = "linkToStringReverser">String Reverser:</label>
+    <button type = "button" id = "linkToStringReverser" class = "btn" onclick="window.open('Projects/string_reverser/index.html','_blank')">GO</button>
+    <ul id = "lsofbugStatusBC">
+        <p id = "bugStatusET"></p> 
+    </ul>   
+    <br>
+    <div>
+        <label for = "reportBugStaus" >Report Bug Status:</label>
+        <button type = "button" id = "reportBugStaus" class="reportBtn">REPORT</button>
+        <button type = "button" id = "goToReportPage" class="reportBtn" onclick="window.open('updateBug.html','_blank');">VISIT PAGE</button>
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html> 
