@@ -5,8 +5,9 @@ const reportBtn = document.getElementById('reportBugStaus');
 reportBtn.addEventListener('click',() => {
 
     const bugStatusBC = document.getElementById('bugStatusBC');
+    const bugStatusCA = document.getElementById('bugStatusCA');
     const bugStatusET = document.getElementById('bugStatusET'); 
-    const bugStatusPM = document.getElementById('bugStatusPM');
+    const bugStatusPM = document.getElementById('bugStatusPM'); 
     const bugStatusTA= document.getElementById('bugStatusTA');    
     let bugStatusLocation = window.prompt('Choose What JS Project you would like to update the bug status of?\nBinary Converter = BC \nExpense Tracker = ET\nPayment Method = PM\nTodo App = TA\n');
     let bugStatusLocationFullName = new String;
@@ -21,7 +22,12 @@ reportBtn.addEventListener('click',() => {
             bugStatusLocationFullName = 'Binary Converter';
             bugStatusLocationIfKey = true;
             break;
-        
+
+        case 'CA':
+            bugStatusLocationFullName = 'Calculator';
+            bugStatusLocationIfKey = true;
+            break;            
+
         case 'ET':
             bugStatusLocationFullName = 'Expenses Tracker';
             bugStatusLocationIfKey = true;
@@ -58,10 +64,13 @@ reportBtn.addEventListener('click',() => {
                     //        window.alert('Error: Unable to update Bug Description');
                     //})
                     break;
-                
+
+                case 'CA':
+                    bugStatusET.innerHTML = 'Bug Status of ' + bugStatusLocationFullName + ': <i class = "bugClass">' + bugStatusChange + '</i><br>Bug Description of ' + bugStatusLocationFullName + ': <i class = "bugClass">' + bugDescription + '</i>';
+                    break;
+
                 case 'ET':
                     bugStatusET.innerHTML = 'Bug Status of ' + bugStatusLocationFullName + ': <i class = "bugClass">' + bugStatusChange + '</i><br>Bug Description of ' + bugStatusLocationFullName + ': <i class = "bugClass">' + bugDescription + '</i>';
-                    
                     break;
                 
                 case 'PM':
