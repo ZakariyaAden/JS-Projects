@@ -9,7 +9,7 @@ reportBtn.addEventListener('click',() => {
     const bugStatusET = document.getElementById('bugStatusET'); 
     const bugStatusPM = document.getElementById('bugStatusPM'); 
     const bugStatusTA= document.getElementById('bugStatusTA');    
-    let bugStatusLocation = window.prompt('Choose What JS Project you would like to update the bug status of?\nBinary Converter = BC \nExpense Tracker = ET\nPayment Method = PM\nTodo App = TA\n');
+    let bugStatusLocation = window.prompt('Choose What JS Project you would like to update the bug status of?\nBinary Converter = BC \nCalucalator = CA\nExpense Tracker = ET\nPayment Method = PM\nTodo App = TA\n');
     let bugStatusLocationFullName = new String;
     let bugStatusLocationIfKey = new Boolean;
     let bugStatusLocationNA = new Boolean; 
