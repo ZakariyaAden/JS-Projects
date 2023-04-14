@@ -10,4 +10,4 @@ subAllExpenses.addEventListener('click',() => {
     printAllExpenes.innerHTML = 'Name of Expenes: ' + nameOfExpense.value;
     
     document.getElementById('body').append(printAllExpenes);
-})
+});
